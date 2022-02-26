@@ -81,7 +81,7 @@
 
    - Fluxograma
 
-     ![tabuada](tabuada.jpg)
+     ![tabuada](Tabuada.jpg)
 
      
 

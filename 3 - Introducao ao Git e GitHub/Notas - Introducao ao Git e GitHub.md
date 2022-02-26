@@ -65,9 +65,9 @@
   	- CMD (pra abrir terminal)
   	- dir (lista de diretórios da pasta)
   	- cd (change directory ) - (entra na pasta)
-  		- cd / - vai pra pasta raiz
-  		- cd windows vai pra pasta windows
-  		- cd .. - volta uma pasta (retrocede um nível)
+    		- cd / - vai pra pasta raiz
+    		- cd windows vai pra pasta windows
+    		- cd .. - volta uma pasta (retrocede um nível)
   	- cls (clear screen) - (limpar a tela)
   	- TAB (para autocompletar)
   	- mkdir (make directory) - Criar pasta
@@ -110,8 +110,6 @@
     - Os arquivos ficam guardados em blobs (bolhas)
     - Os blobs possuem tipo, tamanho, \0, conteúdo do arquivo(texto)
       echo -e 'blob 9\0conteudo' | openssl sha1
-      =
-      echo 'conteudo'| git hasj-object --stdin
   - Trees
     - Armazenam Blobs
     - Responsável por montar a estrutura de onde estão os arquivos 
@@ -173,11 +171,15 @@
 
  - git init (inicia um repositório dentro da pasta)
 
-Primeira vez que acessa o git, precisa configurar para identificar o usuário
-	- git config --global user.email "digita@email.com"
-	- git config --global user.name escolhe um username
-	- git config --global unset user.email (quando quiser apagar o e-mail inserido)
-	- git config --global unset.user.name (quando quiser apagar o nome inserido)
+   - Primeira vez que acessa o git, precisa configurar para identificar o usuário
+
+     - git config --global user.email "digita@email.com"
+     - git config --global user.name escolhe um username
+     - git config --global unset user.email (quando quiser apagar o e-mail inserido)
+     - git config --global unset.user.name (quando quiser apagar o nome inserido)
+
+     
+
  - git add *  (função que faz o Git enviar todas as modificações pra Staged)
 - git add .  (função que faz o Git enviar todas as modificações pra Staged)
 - git add "nomedoarquivo" (adiciona arquivo específico no Staged)
@@ -192,13 +194,15 @@ Primeira vez que acessa o git, precisa configurar para identificar o usuário
 
 **Tracked e Untracked**
 
-	- Untracked arquivos que o GIT não tem ciência deles
-	- Tracked arquivos que o GIT tem ciência deles
-		- Unmodified: Arquivo sem alterações
-		- Modified: Arquivo que já sofreu alguma alteração
-		- Staged: Arquivos prontos aguardando serem salvos em um commit
-		- Quando os arquivos são salvos em um commit (volta ao status unmodified)
-		**Snapshot (Fotografia de como o código está -- tirada quando dá um commit)	
+- Untracked arquivos que o GIT não tem ciência deles
+- Tracked arquivos que o GIT tem ciência deles
+  - Unmodified: Arquivo sem alterações
+  - Modified: Arquivo que já sofreu alguma alteração
+  - Staged: Arquivos prontos aguardando serem salvos em um commit
+  - Quando os arquivos são salvos em um commit (volta ao status unmodified)
+    OBS.: Snapshot (Fotografia de como o código está -- tirada quando dá um commit)	
+
+
 
 **Repositórios:**
 
@@ -235,4 +239,4 @@ Primeira vez que acessa o git, precisa configurar para identificar o usuário
 
 **Como clonar diretório https**
 
-	- git clone "colar_link_https_do_diretorio"
+- git clone "colar_link_https_do_diretorio"

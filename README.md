@@ -17,6 +17,8 @@ Estarão sendo exibidos os conteúdos trabalhados até o primeiro desafio da DIO
 
 - [Portugol Studio](https://github.com/UNIVALI-LITE/Portugol-Studio/releases); 
   
+- [Portugol Web](https://portugol-webstudio.cubos.io/ide); 
+  
 - [Flowgorithm](http://www.flowgorithm.org/download/index.html).
 
 - [Git](https://git-scm.com/download/win);
